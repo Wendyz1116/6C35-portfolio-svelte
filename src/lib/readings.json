@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "image": "images/reading/hailMary.jpg"
+  },
+  {
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "image": "images/reading/sevenHusbands.jpg"
+  },
+  {
+    "title": "Piranesi",
+    "author": "Susanna Clarke",
+    "image": "images/reading/piranesi.jpg"
+  }
+]
