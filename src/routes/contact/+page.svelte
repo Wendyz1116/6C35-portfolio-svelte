@@ -2,10 +2,10 @@
   <title>Contact me</title>
 </svelte:head>
 <nav>
-  <a href="./">Home</a>
-  <a href="../projects">Projects</a>
-  <a href="./" class="current">Contact</a>
-  <a href="../resume">Resume</a>
+  <a href=".">Home</a>
+  <a href="projects">Projects</a>
+  <a href="contact" class="current">Contact</a>
+  <a href="resume">Resume</a>
   <a href="https://github.com/Wendyz1116" target="_blank">GitHub</a>
 </nav>
 <h1>Contact</h1>
