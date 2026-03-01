@@ -71,7 +71,7 @@
     <h2>Visualization Sketches</h2>
 
     <figure>
-      <img src="/images/assn3_graphs/sketch1.png" alt="" />
+      <img src="images/assn3_graphs/sketch1.png" alt="" />
       <figcaption>New Covid-19 cases bar graph</figcaption>
     </figure>
 
@@ -105,7 +105,7 @@
     </ul>
 
     <figure>
-      <img src="images/assn3_graphs/sketch2.png" alt="" />
+      <img src="./images/assn3_graphs/sketch2.png" alt="" />
       <figcaption>New Covid-19 cases circle graph</figcaption>
     </figure>
 
