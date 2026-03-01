@@ -105,7 +105,7 @@
     </ul>
 
     <figure>
-      <img src="/images/assn3_graphs/sketch2.png" alt="" />
+      <img src="images/assn3_graphs/sketch2.png" alt="" />
       <figcaption>New Covid-19 cases circle graph</figcaption>
     </figure>
 
@@ -141,7 +141,7 @@
     </ul>
 
     <figure>
-      <img src="/images/assn3_graphs/sketch3.png" alt="" />
+      <img src="images/assn3_graphs/sketch3.png" alt="" />
       <figcaption>New Covid-19 cases line graph</figcaption>
     </figure>
 
@@ -186,7 +186,7 @@
     <h2>Final Visualization Design</h2>
 
     <figure>
-      <img src="/images/assn3_graphs/final.png" alt="" />
+      <img src="images/assn3_graphs/final.png" alt="" />
       <figcaption>New Covid-19 Cases Line Graph (2020 - 2022)</figcaption>
     </figure>
   </section>
