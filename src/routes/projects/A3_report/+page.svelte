@@ -141,7 +141,7 @@
     </ul>
 
     <figure>
-      <img src="../../static/images/assn3_graphs/sketch3.png" alt="" />
+      <img src="../../images/assn3_graphs/sketch3.png" alt="" />
       <figcaption>New Covid-19 cases line graph</figcaption>
     </figure>
 
