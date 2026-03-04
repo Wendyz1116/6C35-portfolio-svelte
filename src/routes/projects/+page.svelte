@@ -7,13 +7,6 @@
   <title>Projects</title>
 </svelte:head>
 
-<nav>
-  <a href=".">Home</a>
-  <a href="projects" class="current">Projects</a>
-  <a href="contact">Contact</a>
-  <a href="resume">Resume</a>
-  <a href="https://github.com/Wendyz1116" target="_blank">GitHub</a>
-</nav>
 <h1>Projects</h1>
 
 <div class="projects">
