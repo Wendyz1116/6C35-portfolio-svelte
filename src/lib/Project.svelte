@@ -6,6 +6,7 @@
   <h2>{data.title}</h2>
   <img src={data.image} alt="" />
   <p>
+    [{data.year}]
     {@html data.description}
   </p>
 </article>

@@ -1,27 +1,65 @@
 [
   {
-    "title": "Assignment 2: Exploratory Visual Analysis",
-    "image": "images/assn2_graphs/sing_pop_combined.png",
-    "description": "Assignment 2 for the Data Visualization and Society class"
+    "title": "Stack Overflow Guilt Tracker",
+    "year": 2021,
+    "image": "images/projects/Stackoverflow.png",
+    "description": "Monitoring how many times I copy-paste code without reading the explanation.",
+    "story": "It started with a vague sense of shame every time I hit Ctrl+V. I built a browser extension that logs Stack Overflow visits, tracks whether I scrolled past the accepted answer, and rates my intellectual honesty on a scale of 1 to 10. The data was damning. The accepted answer is almost never the best one, I almost never read it, and my commit messages have never once reflected what I actually did. The takeaway: self-awareness is the first step, and I have been firmly stuck on that step for three years."
   },
   {
-    "title": "Architecto minima sed omnis?",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Est, reiciendis aspernatur debitis maxime et itaque animi sit quod quo, tempore incidunt tempora dignissimos exercitationem enim numquam quam quaerat optio laborum ut unde hic delectus laboriosam? Quasi, cupiditate corporis."
+    "title": "Dependency Hell Mapper",
+    "year": 2019,
+    "image": "images/projects/DependencyHell.png",
+    "description": "Visualizing the npm package tree so I can feel bad about it interactively.",
+    "story": "I needed to add a button. The button required a library. The library required seventeen other libraries, two of which were abandoned in 2019 and one of which had a CVE filed against it the same week I installed it. I built a tool that renders your full dependency graph as a force-directed diagram, with color-coding for deprecated packages and a counter for how many human-years of maintenance you are now quietly depending on. The takeaway: every node_modules folder is a philosophical crisis waiting to happen."
   },
   {
-    "title": "Asperiores rem repellendus doloremque.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Eligendi tenetur quae quos recusandae est. Cumque, voluptatem. Quo nihil dignissimos molestiae explicabo praesentium aspernatur debitis, illo rerum possimus quam ducimus earum nulla officiis maiores itaque repellat corporis soluta labore?"
+    "title": "Meeting Could Have Been an Email Detector",
+    "year": 2020,
+    "image": "images/projects/MeetingDetector.png",
+    "description": "An ML classifier trained to intercept calendar invites before they ruin my afternoon.",
+    "story": "After the fourth all-hands of the quarter, I had enough labeled training data to build something meaningful. I trained a binary classifier on calendar invite titles, descriptions, and attendee counts. Precision landed at 94%. The model flags anything that could have been a Slack message, a Notion doc, or simply not happened. I integrated it with my calendar and set flagged meetings to auto-decline with a polite template. My manager called a meeting to discuss it. The model caught that one too."
   },
   {
-    "title": "Laudantium reprehenderit placeat perspiciatis.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Quo minus perferendis nulla corrupti repellat dolorem dolore assumenda sit minima ducimus quidem ullam, id ipsa dicta tempora laborum officiis unde possimus cumque nobis alias inventore! Ullam repudiandae iusto nam."
+    "title": "git blame Emotional Support Bot",
+    "year": 2021,
+    "image": "images/projects/gitBlame.png",
+    "description": "A chatbot that reads git blame output and helps you process your feelings about it.",
+    "story": "The code was bad. The timestamp said three years ago. The username said me. I needed someone to talk to who would not judge me, and I also needed to ship the fix by end of day. I built a bot that takes git blame output as input and responds with a mix of validation, context-setting, and gentle reframing. It reminds you that past-you was working with incomplete information, that the deadline was real, and that everyone has a 2am commit they regret. The takeaway: self-compassion and a squash merge can coexist."
   },
   {
-    "title": "Consequuntur autem eos facere.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Laborum alias ea unde harum aspernatur? Molestiae, veritatis, possimus, numquam ex excepturi quod ducimus sit odit optio quibusdam sequi aliquid itaque tempore perspiciatis placeat expedita vero voluptates. Sit, aspernatur sint!"
+    "title": "Localhost Port Conflict Resolver",
+    "year": 2021,
+    "image": "images/projects/localhost.png",
+    "description": "Because something is always running on 3000 and it is never what I think it is.",
+    "story": "I opened a new project. Port 3000 was taken. I ran lsof and found a process I had no memory of starting. It had been running for eleven days. I built a small CLI tool that maps all occupied ports to their originating project, shows you when the process started, and offers a ranked list of candidates to kill based on how likely they are to matter. It also keeps a log so I can reconstruct what I was doing on any given day by what was listening on localhost. The takeaway: my development environment is an archaeological site."
+  },
+  {
+    "title": "Rubber Duck as a Service",
+    "year": 2022,
+    "image": "images/projects/rubberduck.jpg",
+    "description": "A voice interface that makes you explain your bug out loud before Googling anything.",
+    "story": "The rule was simple: you cannot open a browser tab until you have spoken the problem aloud for at least sixty seconds. I built a voice-activated web app with a timer, a transcript, and a mandatory pause for reflection. Forty percent of the time, I solved the problem before the timer finished. Another thirty percent of the time, I realized I was solving the wrong problem entirely. The remaining thirty percent I still Googled, but at least I knew what I was looking for. The takeaway: articulation is underrated as a debugging tool."
+  },
+  {
+    "title": "Dark Pattern Hall of Shame",
+    "year": 2023,
+    "image": "images/projects/darkPattern.jpg",
+    "description": "A crowdsourced archive of UI manipulation tactics, documented with forensic precision.",
+    "story": "I tried to cancel a subscription and it took me four screens, two fake loading states, and a guilt-trip modal with a button labeled 'No thanks, I hate saving money.' I started screenshotting. The archive now has over three hundred documented patterns sorted by category, industry, and audacity level. Contributors submit new entries weekly. I added a severity score based on estimated user time wasted and psychological pressure applied. The takeaway: someone designed these on purpose, and I would like them to know that I know."
+  },
+  {
+    "title": "README Completeness Auditor",
+    "year": 2025,
+    "image": "images/projects/readme.png",
+    "description": "Scoring open source READMEs so maintainers know exactly where they let everyone down.",
+    "story": "I cloned a highly starred repository with excellent vibes and zero installation instructions. I spent forty minutes guessing at environment variables before finding a closed issue from 2018 that explained everything. I built an auditor that parses README files and scores them across twelve dimensions including setup clarity, prerequisites, example coverage, and whether the badges at the top are real or decorative. The report is delivered as a PDF with a letter grade and a section called Specific Ways This Could Be Better. The takeaway: stars are not documentation."
+  },
+  {
+    "title": "Rewrite It in Rust Urge Suppressor",
+    "year": 2023,
+    "image": "images/projects/rust.png",
+    "description": "A browser extension that adds a mandatory 72-hour waiting period before opening the Rust docs.",
+    "story": "The Python script ran in four seconds. That felt slow. I caught myself pricing out a full rewrite before I had confirmed there was actually a problem. I built an extension that detects when I navigate to docs.rust-lang.org within two weeks of a working Python or JavaScript project and surfaces a modal with three questions: Is there a measured performance issue? Have you profiled the existing code? Do your users know or care? If I cannot answer yes to at least two, the tab closes. The takeaway: the rewrite is almost always about me, not the software."
   }
 ]

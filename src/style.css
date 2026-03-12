@@ -70,3 +70,16 @@ h6 {
   line-height: 1.1;
   text-wrap: balance;
 }
+
+.github-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.github-stats dt {
+  grid-row: 1;
+}
+
+.github-stats dd {
+  grid-row: 2;
+}
